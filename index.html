@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index_estilo.css">
+    <link rel="icon" href="img/diego.webp">
+    <title>Minha Homepage</title>
+</head>
+<body>
+<header>
+    <h1>Site do Diego</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Um pouco sobre mim</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#formacao">Formação Educacional</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="home">
+        <h2>Oi eu sou o Diego!</h2>
+        <img alt="Imagem do dono do site" id="diego" src="img/diego.webp" width="120">
+
+        <p>Este site é para me dar nota na minha disciplina da faculdade</p>
+        <p>Para mostrar o que foi aprendido na disciplina de</p>
+        <p>Ferramentas de Desenvolvimento Web.</p>
+        <p>Eu amo tudo relacionado a viagens e tecnologia!</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Eu não fiz muitos projetos durante o curso :(</p>
+        <p>Não tenho muito o que mostrar aqui</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Educacional</h2>
+        <p>Minha formação acadêmica:</p>
+        <p>Análise e Desenvolvimento de Sistemas</p>
+        <p>2022 - Até o momento</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Quer entrar em contato comigo? Preencha o formulário abaixo e eu responderei o mais breve possível!</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
